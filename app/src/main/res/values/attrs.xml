@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StyleView">
+        <attr name="backColor" format="color"/>
+        <!-- 继续定义其他属性 -->
+    </declare-styleable>
+
+    <attr name="AttrsReference" format="reference"/>
+
+
+
+
+    <declare-styleable name="StyleViewParent">
+        <attr name="lineColor" format="color"/>
+    </declare-styleable>
+
+</resources>

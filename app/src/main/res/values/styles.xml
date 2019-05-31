@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="StyleViewDefault">
+        <item name="backColor">#0000FF</item>
+    </style>
+    <style name="StyleViewTestReference">
+        <item name="AttrsReference">@style/StyleTestSpecific</item>
+    </style>
+    <style name="StyleTestSpecific">
+        <item name="backColor">#5500FF00</item>
+    </style>
+
+
+
+
+    <style name="StyleParentTest">
+        <item name="lineColor">#0000FF</item>
+    </style>
+
+</resources>
